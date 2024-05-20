@@ -5,6 +5,12 @@
 using namespace std;
 
 void func() {
+    // eger exe dosyasi olarak calistirirsaniz dili turkce yapmak icin kullanilir.
+    setlocale(LC_ALL,"Turkish");
     int sayi2 = 10;
-    cout << sayi2;
+    int sayi;
+
+    cout << sayi2<<"\n";
+    sayi = 20;
+    cout<< "ilk sayiniz: "<<sayi << " ikinci sayiniz: "<< sayi2<<" dir"<< endl;
 }
