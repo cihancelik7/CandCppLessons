@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-void func() {
+void degiskenler() {
     // eger exe dosyasi olarak calistirirsaniz dili turkce yapmak icin kullanilir.
     setlocale(LC_ALL,"Turkish");
     int sayi2 = 10;

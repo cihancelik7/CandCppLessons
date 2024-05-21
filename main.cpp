@@ -1,11 +1,13 @@
 #include <iostream>
 using namespace std;
-void func();
+void degiskenler();
+void degiskenlerC();
 int main() {
     cout << "Hello, World!" << endl;
     printf("Merhaba dunya\n");
 
-    func();
+    degiskenler();
+    degiskenlerC();
     return 0;
 
 
