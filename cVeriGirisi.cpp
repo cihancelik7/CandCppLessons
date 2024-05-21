@@ -8,7 +8,7 @@ void cVeriGirisi() {
     int sayi1;
     float sayi2;
     double sayi3;
-    printf("Bir karanter girin: ");
+    printf("Bir karakter girin: ");
     scanf("%c",&k);
     printf("Bir Metin Giriniz: ");
     scanf("%s",&metin);
