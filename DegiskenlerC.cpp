@@ -10,7 +10,8 @@ void degiskenlerC() {
     printf("%d ve %d \n",sayi1,sayi2);
     // sayisallarda %d ile int degerini yazdirabiliriz
     // c++ da ise cout bu durumu kaldiriyor
-    printf("Merhaba");
+    printf("Merhaba\n");
+    printf("`*********************Degiskenler C ile tanimlandi*******************************");
     // %d = tam sayi yazdiracagim demek, decimal
 }
 
