@@ -26,7 +26,10 @@ void degiskenlerC() {
 
     char k4[20] = "Cihan Celik";// burada char dizisi olusturacagimizdan bahsettigimiz icin maximum
     // kelime sayisini dizi sayisi olarak gireriz boylece yazdirir
-    printf("%s",k4);// aslinda tanimlarken string tanimlama yok fakat yazdirirken var
+    printf("%s\n",k4);// aslinda tanimlarken string tanimlama yok fakat yazdirirken var
+    /* char kullaniminda '' kullanilir string icin ise char yanina[] koyup kac adet karakter icerecegini yazmaliyiz
+     * ardindan virgulden sonra tek tirnak yerine cift tirnak icerisine yazmaliyiz "".
+    */
 }
 
 
