@@ -13,7 +13,7 @@ void degiskenlerC() {
     printf("Merhaba\n");
     printf("`*********************Integer veriler C ile tanimlandi*******************************\n");
     // %d = tam sayi yazdiracagim demek, decimal
-    printf("`*********************Char ile veri ve veri dizisi C ile tanimlandi*******************************\n");
+    printf("`*********************Char ile veri ve char veri dizisi C ile tanimlandi*******************************\n");
 
     char k = 66;
     printf("%c \n",k);
@@ -30,6 +30,17 @@ void degiskenlerC() {
     /* char kullaniminda '' kullanilir string icin ise char yanina[] koyup kac adet karakter icerecegini yazmaliyiz
      * ardindan virgulden sonra tek tirnak yerine cift tirnak icerisine yazmaliyiz "".
     */
+
+    printf("`*********************float ve double C ile tanimlandi*******************************\n");
+
+    double s2;
+    // printf icerisinde floati yazdirmak icin %f yazmaliyiz fakat double yazdirmak icin se
+    // %lf olarak yazmaliyiz.
+    s2 = 11.0/5;
+    printf("%.3lf",s2);
+    // eger virgulden sonraki basamak adedinin belirlenmesini istiyorsak
+    // printf icerisinde % isaretinden sonra . koyup kac adet basamak olacagini belirtmeliyiz
+
 }
 
 
